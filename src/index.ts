@@ -52,11 +52,12 @@ class EditorProvider implements CustomReadonlyEditorProvider<ReadonlyCustomDocum
       .replaceAll('.postMessage', '?.postMessage')
 
     html += `\n<script>
+    const vscode = acquireVsCodeApi()
+
     window.handleOpenInEditor = (el, filepath) => {
       el.addEventListener('click', (e) => {
         e.preventDefault()
         e.stopPropagation()
-        const vscode = acquireVsCodeApi()
         vscode.postMessage({ command: 'openInEditor', filepath })
       })
     }
