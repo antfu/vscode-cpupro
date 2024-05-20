@@ -1,5 +1,5 @@
 import type { CustomDocument, CustomReadonlyEditorProvider, ExtensionContext, WebviewPanel } from 'vscode'
-import { Selection, TextEditorRevealType, Uri, window, workspace } from 'vscode'
+import { CustomDocumentOpenContext, Selection, TextEditorRevealType, Uri, window, workspace } from 'vscode'
 import { report } from './html/report'
 
 export class ReadonlyCustomDocument implements CustomDocument {
