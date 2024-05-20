@@ -2,7 +2,7 @@
   "publisher": "antfu",
   "name": "cpupro",
   "displayName": "CPUpro",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": true,
   "packageManager": "pnpm@9.1.1",
   "description": "",
@@ -47,10 +47,8 @@
         ]
       }
     ],
-    "commands": [
-    ],
-    "configuration": [
-    ]
+    "commands": [],
+    "configuration": []
   },
   "scripts": {
     "build": "tsup src/index.ts --external vscode",
