@@ -4,12 +4,7 @@ import antfu from '@antfu/eslint-config'
 export default antfu(
   {
     ignores: [
-      // eslint ignore globs here
+      'src/html/report.ts',
     ],
-  },
-  {
-    rules: {
-      // overrides
-    },
   },
 )
