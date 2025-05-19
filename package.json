@@ -2,7 +2,7 @@
   "publisher": "antfu",
   "name": "cpupro",
   "displayName": "CPUpro",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "private": true,
   "packageManager": "pnpm@10.11.0",
   "description": "CPUpro for opening .cpuprofile files in VS Code.",
