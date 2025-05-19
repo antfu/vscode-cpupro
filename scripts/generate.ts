@@ -12,8 +12,8 @@ fs.mkdirSync('./src/html', { recursive: true })
 fs.writeFileSync(
   './src/html/report.ts',
   [
-  `export const report = ${JSON.stringify(file)}`,
-  '',
+    `export const report = ${JSON.stringify(file)}`,
+    '',
   ].join('\n'),
   'utf-8',
 )

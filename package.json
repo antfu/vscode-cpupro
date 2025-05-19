@@ -4,7 +4,7 @@
   "displayName": "CPUpro",
   "version": "0.1.1",
   "private": true,
-  "packageManager": "pnpm@9.5.0",
+  "packageManager": "pnpm@10.11.0",
   "description": "CPUpro for opening .cpuprofile files in VS Code.",
   "author": "Anthony Fu <anthonyfu117@hotmail.com>",
   "license": "MIT",
@@ -29,7 +29,7 @@
     "dist"
   ],
   "engines": {
-    "vscode": "^1.89.0"
+    "vscode": "^1.100.0"
   },
   "activationEvents": [
     "onStartupFinished"
@@ -62,20 +62,20 @@
     "release": "bumpp && nr publish"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.22.4",
-    "@antfu/ni": "^0.22.0",
-    "@types/node": "^20.14.10",
-    "@types/vscode": "^1.91.0",
-    "@vscode/vsce": "^2.30.0",
-    "bumpp": "^9.4.1",
+    "@antfu/eslint-config": "^4.13.1",
+    "@antfu/ni": "^24.4.0",
+    "@types/node": "^22.15.19",
+    "@types/vscode": "^1.100.0",
+    "@vscode/vsce": "^3.4.1",
+    "bumpp": "^10.1.1",
     "cpupro": "^0.5.1",
-    "eslint": "^9.7.0",
-    "esno": "^4.7.0",
-    "pnpm": "^9.5.0",
-    "rimraf": "^5.0.9",
-    "tsup": "^8.1.0",
-    "typescript": "^5.5.3",
-    "vite": "^5.3.4",
-    "vitest": "^2.0.3"
+    "eslint": "^9.27.0",
+    "esno": "^4.8.0",
+    "pnpm": "^10.11.0",
+    "rimraf": "^6.0.1",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vitest": "^3.1.3"
   }
 }

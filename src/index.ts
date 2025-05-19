@@ -62,9 +62,9 @@ class EditorProvider implements CustomReadonlyEditorProvider<ReadonlyCustomDocum
       })
     }
     discoveryLoader.start(${JSON.stringify({
-        type: 'file',
-        name: document.uri.fsPath,
-        createdAt: Date.now(),
+      type: 'file',
+      name: document.uri.fsPath,
+      createdAt: Date.now(),
     })})
     discoveryLoader.push(${JSON.stringify(document.userData.toString())})
     discoveryLoader.finish()
